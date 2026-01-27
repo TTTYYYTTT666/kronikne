@@ -1,4 +1,5 @@
-import { Issue, getCategoryLabel, getRiskLabel } from '@/data/cars';
+import { Issue } from '@/types';
+import { getCategoryLabel, getRiskLabel } from '@/data/cars';
 
 interface IssueCardProps {
     issue: Issue;
