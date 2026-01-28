@@ -59,6 +59,14 @@ export default async function CarDetailPage({ params }: PageProps) {
 
     // Fetch Session and Comments
     const session = await auth();
+
+    // Create type-safe user object for CommentsSection
+    const currentUser = session?.user?.id ? {
+        id: session.user.id,
+        name: session.user.name,
+        image: session.user.image
+    } : null;
+
     const comments = await prisma.comment.findMany({
         where: { carSlug: slug },
         include: { user: true },
@@ -172,7 +180,7 @@ export default async function CarDetailPage({ params }: PageProps) {
                         {/* Comments Section */}
                         <CommentsSection
                             carSlug={slug}
-                            currentUser={session?.user}
+                            currentUser={currentUser}
                             comments={comments}
                         />
                     </div>

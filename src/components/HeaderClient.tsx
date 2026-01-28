@@ -17,6 +17,8 @@ interface HeaderClientProps {
         name?: string | null;
         email?: string | null;
         image?: string | null;
+        carBrand?: string | null;
+        role?: string | null;
     } | null;
 }
 
@@ -112,7 +114,7 @@ export default function HeaderClient({ user }: HeaderClientProps) {
                     {/* Right side actions */}
                     <div className="flex items-center space-x-4">
                         {/* User Menu */}
-                        <UserMenu user={user} />
+                        <UserMenu user={user || undefined} />
 
                         {/* Theme Toggle */}
                         <button

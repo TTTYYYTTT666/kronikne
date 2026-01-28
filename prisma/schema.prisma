@@ -13,10 +13,18 @@ model User {
   email         String?   @unique
   emailVerified DateTime?
   image         String?
+  password      String?   // For local auth
+  phone         String?
+  carBrand      String?
+  carModel      String?
+  role          String    @default("USER") // USER, ADMIN
+
   accounts      Account[]
   sessions      Session[]
   comments      Comment[]
   votes         Vote[]
+  posts         BlogPost[]
+  experiences   Experience[]
 }
 
 model Account {
@@ -81,4 +89,43 @@ model Vote {
   comment   Comment  @relation(fields: [commentId], references: [id], onDelete: Cascade)
 
   @@unique([userId, commentId]) // User can vote only once per comment
+}
+
+model BlogPost {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  title     String
+  excerpt   String
+  content   String
+  image     String?
+  category  String
+  published Boolean  @default(true) // User posts might need approval, but defaulting to true for now as requested
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  authorId  String
+  author    User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
+}
+
+model Experience {
+  id                String   @id @default(cuid())
+  carBrand          String
+  carModel          String
+  carVariant        String?
+  rating            Int      // 1-5
+  title             String
+  content           String
+  images            String?  // JSON array of image URLs
+  km                String?
+  ownershipDuration String?
+  pros              String   // JSON array stored as string
+  cons              String   // JSON array stored as string
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([carBrand])
+  @@index([rating])
 }

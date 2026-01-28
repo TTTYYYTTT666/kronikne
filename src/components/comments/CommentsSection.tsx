@@ -108,11 +108,16 @@ export default function CommentsSection({ carSlug, currentUser, comments }: Comm
                     </div>
                 </form>
             ) : (
-                <div className="mb-10 p-6 bg-gray-50 dark:bg-zinc-800/50 rounded-xl text-center border border-gray-100 dark:border-zinc-800">
-                    <p className="text-gray-600 dark:text-gray-400 mb-4">
-                        Yorum yapmak için giriş yapmalısınız.
+                <div className="mb-10 p-8 bg-gray-50 dark:bg-zinc-800/50 rounded-xl text-center border border-gray-100 dark:border-zinc-800 flex flex-col items-center justify-center gap-4">
+                    <p className="text-gray-600 dark:text-gray-400">
+                        Bu araç hakkında yorum yapmak veya soru sormak için giriş yapmalısınız.
                     </p>
-                    {/* The login button is in the header, maybe add one here too? */}
+                    <a
+                        href="/giris"
+                        className="px-6 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-lg transition-colors shadow-lg shadow-emerald-500/20"
+                    >
+                        Giriş Yap / Üye Ol
+                    </a>
                 </div>
             )}
 

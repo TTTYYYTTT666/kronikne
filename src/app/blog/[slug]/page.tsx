@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { blogPosts } from '@/data/blog-posts';
+import DOMPurify from 'isomorphic-dompurify';
 
 interface BlogPostPageProps {
     params: Promise<{ slug: string }>;
@@ -13,6 +14,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     if (!post) {
         notFound();
     }
+
+    // Sanitize content to prevent XSS attacks
+    const sanitizedContent = DOMPurify.sanitize(post.content, {
+        ALLOWED_TAGS: ['p', 'br', 'strong', 'em', 'u', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'a', 'img', 'blockquote', 'code', 'pre'],
+        ALLOWED_ATTR: ['href', 'src', 'alt', 'title', 'class', 'target', 'rel'],
+        ALLOW_DATA_ATTR: false,
+    });
 
     return (
         <article className="min-h-screen bg-zinc-950 text-white pb-20">
@@ -63,7 +71,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     prose-strong:text-white prose-blockquote:border-emerald-500 
                     prose-li:text-gray-300 prose-img:rounded-2xl prose-img:shadow-2xl
                     prose-a:text-emerald-400 hover:prose-a:text-emerald-300"
-                    dangerouslySetInnerHTML={{ __html: post.content }}
+                    dangerouslySetInnerHTML={{ __html: sanitizedContent }}
                 />
 
                 {/* Tags */}

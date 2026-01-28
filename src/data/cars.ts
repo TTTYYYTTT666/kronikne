@@ -9,7 +9,8 @@ export const brands: Brand[] = [
             { id: 'egea', name: 'Egea', variants: [{ id: 'egea-1-4', name: '1.4 Fire', years: '2015-2024', slug: 'fiat-egea-1-4-fire' }, { id: 'egea-1-3', name: '1.3 MultiJet', years: '2015-2024', slug: 'fiat-egea-1-3-multijet' }, { id: 'egea-cross', name: 'Cross 1.4', years: '2020-2024', slug: 'fiat-egea-cross-1-4' }] },
             { id: 'linea', name: 'Linea', variants: [{ id: 'linea-1-3', name: '1.3 MultiJet', years: '2007-2017', slug: 'fiat-linea-1-3-multijet' }] },
             { id: 'doblo', name: 'Doblo', variants: [{ id: 'doblo-1-6', name: '1.6 MultiJet', years: '2010-2022', slug: 'fiat-doblo-1-6-multijet' }] },
-            { id: 'fiorino', name: 'Fiorino', variants: [{ id: 'fiorino-1-3', name: '1.3 MultiJet', years: '2008-2024', slug: 'fiat-fiorino-1-3-multijet' }] }
+            { id: 'fiorino', name: 'Fiorino', variants: [{ id: 'fiorino-1-3', name: '1.3 MultiJet', years: '2008-2024', slug: 'fiat-fiorino-1-3-multijet' }] },
+            { id: 'punto', name: 'Punto', variants: [{ id: 'punto-evo', name: 'Evo 1.3 MultiJet', years: '2010-2013', slug: 'fiat-punto-evo-1-3-multijet' }] }
         ]
     },
     {
@@ -22,7 +23,10 @@ export const brands: Brand[] = [
             { id: 'symbol', name: 'Symbol', variants: [{ id: 'symbol-3', name: 'Symbol 1.5 dCi', years: '2013-2021', slug: 'renault-symbol-1-5-dci' }] },
             { id: 'taliant', name: 'Taliant', variants: [{ id: 'taliant-1-0', name: '1.0 Turbo', years: '2021-2024', slug: 'renault-taliant-1-0-turbo' }] },
             { id: 'captur', name: 'Captur', variants: [{ id: 'captur-2', name: '1.3 TCe', years: '2020-2024', slug: 'renault-captur-1-3-tce' }] },
-            { id: 'austral', name: 'Austral', variants: [{ id: 'austral-hybrid', name: 'E-Tech Hybrid', years: '2022-2024', slug: 'renault-austral-hybrid' }] }
+            { id: 'austral', name: 'Austral', variants: [{ id: 'austral-hybrid', name: 'E-Tech Hybrid', years: '2022-2024', slug: 'renault-austral-hybrid' }] },
+            { id: 'fluence', name: 'Fluence', variants: [{ id: 'fluence-1-5', name: '1.5 dCi', years: '2010-2016', slug: 'renault-fluence-1-5-dci' }] },
+            { id: 'kadjar', name: 'Kadjar', variants: [{ id: 'kadjar-1-5', name: '1.5 dCi', years: '2015-2022', slug: 'renault-kadjar-1-5-dci' }] },
+            { id: 'talisman', name: 'Talisman', variants: [{ id: 'talisman-1-6', name: '1.6 dCi', years: '2016-2020', slug: 'renault-talisman-1-6-dci' }] }
         ]
     },
     {
@@ -32,10 +36,14 @@ export const brands: Brand[] = [
         models: [
             { id: 'passat', name: 'Passat', variants: [{ id: 'passat-b8', name: 'B8 1.6 TDI', years: '2015-2023', slug: 'volkswagen-passat-b8-1-6-tdi' }] },
             { id: 'golf', name: 'Golf', variants: [{ id: 'golf-7', name: 'Golf 7 1.4 TSI', years: '2012-2020', slug: 'volkswagen-golf-7-1-4-tsi' }, { id: 'golf-8', name: 'Golf 8 1.0 eTSI', years: '2020-2024', slug: 'volkswagen-golf-8-1-0-etsi' }] },
-            { id: 'polo', name: 'Polo', variants: [{ id: 'polo-6', name: 'Polo 1.0 TSI', years: '2017-2024', slug: 'volkswagen-polo-1-0-tsi' }] },
+            { id: 'polo', name: 'Polo', variants: [{ id: 'polo-6', name: 'Polo 1.0 TSI', years: '2017-2024', slug: 'volkswagen-polo-1-0-tsi' }, { id: 'polo-1-4-tdi', name: 'Polo 1.4 TDI', years: '2014-2017', slug: 'volkswagen-polo-1-4-tdi' }] },
             { id: 'tiguan', name: 'Tiguan', variants: [{ id: 'tiguan-2', name: '1.5 TSI', years: '2016-2023', slug: 'volkswagen-tiguan-1-5-tsi' }] },
             { id: 'troc', name: 'T-Roc', variants: [{ id: 'troc-1', name: '1.5 TSI', years: '2018-2024', slug: 'volkswagen-t-roc-1-5-tsi' }] },
-            { id: 'caddy', name: 'Caddy', variants: [{ id: 'caddy-5', name: '2.0 TDI', years: '2020-2024', slug: 'volkswagen-caddy-2-0-tdi' }] }
+            { id: 'caddy', name: 'Caddy', variants: [{ id: 'caddy-5', name: '2.0 TDI', years: '2020-2024', slug: 'volkswagen-caddy-2-0-tdi' }] },
+            { id: 'jetta', name: 'Jetta', variants: [{ id: 'jetta-mk6', name: '1.4 TSI', years: '2011-2018', slug: 'volkswagen-jetta-1-4-tsi' }] },
+            { id: 'arteon', name: 'Arteon', variants: [{ id: 'arteon-1-5', name: '1.5 TSI', years: '2017-2024', slug: 'volkswagen-arteon-1-5-tsi' }] },
+            { id: 'amarok', name: 'Amarok', variants: [{ id: 'amarok-v6', name: '3.0 V6 TDI', years: '2016-2022', slug: 'volkswagen-amarok-v6-tdi' }] },
+            { id: 'transporter', name: 'Transporter', variants: [{ id: 'transporter-t6', name: 'T6 2.0 TDI', years: '2015-2024', slug: 'volkswagen-transporter-t6' }] }
         ]
     },
     {
@@ -45,7 +53,9 @@ export const brands: Brand[] = [
         models: [
             { id: 'civic', name: 'Civic', variants: [{ id: 'civic-fc5', name: 'FC5 1.6 i-VTEC', years: '2016-2021', slug: 'honda-civic-fc5-1-6-vtec' }, { id: 'civic-fe1', name: 'FE1 1.5 Turbo', years: '2021-2024', slug: 'honda-civic-fe1-1-5-turbo' }] },
             { id: 'city', name: 'City', variants: [{ id: 'city-new', name: '1.5 i-VTEC', years: '2021-2024', slug: 'honda-city-1-5-i-vtec' }] },
-            { id: 'crv', name: 'CR-V', variants: [{ id: 'crv-hybrid', name: '2.0 Hybrid', years: '2019-2023', slug: 'honda-crv-hybrid' }] }
+            { id: 'crv', name: 'CR-V', variants: [{ id: 'crv-hybrid', name: '2.0 Hybrid', years: '2019-2023', slug: 'honda-crv-hybrid' }] },
+            { id: 'jazz', name: 'Jazz', variants: [{ id: 'jazz-hybrid', name: '1.5 Hybrid', years: '2020-2024', slug: 'honda-jazz-hybrid' }] },
+            { id: 'civic-fb7', name: 'Civic FB7', variants: [{ id: 'civic-fb7-eco', name: '1.6 i-VTEC Eco', years: '2012-2016', slug: 'honda-civic-fb7-1-6-eco' }] }
         ]
     },
     {
@@ -56,7 +66,9 @@ export const brands: Brand[] = [
             { id: 'corolla', name: 'Corolla', variants: [{ id: 'corolla-hybrid', name: 'Hybrid Dream', years: '2019-2024', slug: 'toyota-corolla-hybrid' }, { id: 'corolla-1-5', name: '1.5 Vision', years: '2020-2024', slug: 'toyota-corolla-1-5-vision' }] },
             { id: 'chr', name: 'C-HR', variants: [{ id: 'chr-hybrid', name: '1.8 Hybrid', years: '2016-2023', slug: 'toyota-chr-1-8-hybrid' }] },
             { id: 'yaris', name: 'Yaris', variants: [{ id: 'yaris-hybrid', name: '1.5 Hybrid', years: '2020-2024', slug: 'toyota-yaris-hybrid' }] },
-            { id: 'corolla-cross', name: 'Corolla Cross', variants: [{ id: 'corolla-cross-hybrid', name: '1.8 Hybrid', years: '2022-2024', slug: 'toyota-corolla-cross-hybrid' }] }
+            { id: 'corolla-cross', name: 'Corolla Cross', variants: [{ id: 'corolla-cross-hybrid', name: '1.8 Hybrid', years: '2022-2024', slug: 'toyota-corolla-cross-hybrid' }] },
+            { id: 'auris', name: 'Auris', variants: [{ id: 'auris-1-6', name: '1.6 Valvematic', years: '2013-2018', slug: 'toyota-auris-1-6-valvematic' }] },
+            { id: 'avensis', name: 'Avensis', variants: [{ id: 'avensis-1-6', name: '1.6 D-4D', years: '2015-2018', slug: 'toyota-avensis-1-6-d4d' }] }
         ]
     },
     {
@@ -68,7 +80,8 @@ export const brands: Brand[] = [
             { id: 'i10', name: 'i10', variants: [{ id: 'i10-1-2', name: '1.2 MPI', years: '2020-2024', slug: 'hyundai-i10-1-2-mpi' }] },
             { id: 'bayon', name: 'Bayon', variants: [{ id: 'bayon-1-4', name: '1.4 MPI', years: '2021-2024', slug: 'hyundai-bayon-1-4-mpi' }] },
             { id: 'tucson', name: 'Tucson', variants: [{ id: 'tucson-1-6', name: '1.6 T-GDI', years: '2021-2024', slug: 'hyundai-tucson-1-6-t-gdi' }] },
-            { id: 'elantra', name: 'Elantra', variants: [{ id: 'elantra-1-6', name: '1.6 MPI', years: '2021-2024', slug: 'hyundai-elantra-1-6-mpi' }] }
+            { id: 'elantra', name: 'Elantra', variants: [{ id: 'elantra-1-6', name: '1.6 MPI', years: '2021-2024', slug: 'hyundai-elantra-1-6-mpi' }] },
+            { id: 'accent', name: 'Accent Blue', variants: [{ id: 'accent-blue-1-6', name: '1.6 CRDi', years: '2011-2018', slug: 'hyundai-accent-blue-1-6-crdi' }] }
         ]
     },
     {
@@ -80,7 +93,9 @@ export const brands: Brand[] = [
             { id: 'fiesta', name: 'Fiesta', variants: [{ id: 'fiesta-1-0', name: '1.0 EcoBoost', years: '2017-2023', slug: 'ford-fiesta-1-0-ecoboost' }] },
             { id: 'puma', name: 'Puma', variants: [{ id: 'puma-1-0', name: '1.0 EcoBoost', years: '2020-2024', slug: 'ford-puma-1-0-ecoboost' }] },
             { id: 'kuga', name: 'Kuga', variants: [{ id: 'kuga-1-5', name: '1.5 EcoBlue', years: '2020-2024', slug: 'ford-kuga-1-5-ecoblue' }] },
-            { id: 'courier', name: 'Courier', variants: [{ id: 'courier-1-5', name: '1.5 TDCi', years: '2014-2023', slug: 'ford-tourneo-courier-1-5-tdci' }] }
+            { id: 'courier', name: 'Courier', variants: [{ id: 'courier-1-5', name: '1.5 TDCi', years: '2014-2023', slug: 'ford-tourneo-courier-1-5-tdci' }] },
+            { id: 'mondeo', name: 'Mondeo', variants: [{ id: 'mondeo-mk5', name: '1.5 EcoBoost', years: '2014-2022', slug: 'ford-mondeo-1-5-ecoboost' }] },
+            { id: 'ranger', name: 'Ranger', variants: [{ id: 'ranger-wildtrak', name: 'Wildtrak 2.0', years: '2019-2023', slug: 'ford-ranger-wildtrak' }] }
         ]
     },
     {
@@ -184,7 +199,7 @@ export const brands: Brand[] = [
         name: 'Audi',
         logo: 'https://logo.clearbit.com/audi.com',
         models: [
-            { id: 'a3', name: 'A3', variants: [{ id: 'a3-8v', name: 'A3 8V 1.4 TFSI', years: '2012-2020', slug: 'audi-a3-8v-1-4-tfsi' }, { id: 'a3-8y', name: 'A3 8Y 35 TFSI', years: '2020-2024', slug: 'audi-a3-8y-35-tfsi' }] },
+            { id: 'a3', name: 'A3', variants: [{ id: 'a3-8v', name: 'A3 8V 1.4 TFSI', years: '2012-2020', slug: 'audi-a3-8v-1-4-tfsi' }, { id: 'a3-8v-tdi', name: 'A3 1.6 TDI', years: '2012-2017', slug: 'audi-a3-8v-1-6-tdi' }, { id: 'a3-8y', name: 'A3 8Y 35 TFSI', years: '2020-2024', slug: 'audi-a3-8y-35-tfsi' }] },
             { id: 'a4', name: 'A4', variants: [{ id: 'a4-b8', name: 'A4 B8 2.0 TDI', years: '2008-2015', slug: 'audi-a4-b8-2-0-tdi' }, { id: 'a4-b9', name: 'A4 B9 40 TFSI', years: '2016-2024', slug: 'audi-a4-b9-40-tfsi' }] },
             { id: 'a6', name: 'A6', variants: [{ id: 'a6-c7', name: 'A6 C7 2.0 TDI', years: '2011-2018', slug: 'audi-a6-c7-2-0-tdi' }, { id: 'a6-c8', name: 'A6 C8 40 TDI', years: '2018-2024', slug: 'audi-a6-c8-40-tdi' }] },
             { id: 'q3', name: 'Q3', variants: [{ id: 'q3-f3', name: 'Q3 F3 35 TFSI', years: '2018-2024', slug: 'audi-q3-35-tfsi' }] },
@@ -3904,6 +3919,587 @@ export const cars: Car[] = [
         pros: ['Tasarım', 'Marka imajı', 'Havası'],
         cons: ['Çok sorunlu', 'Çok yakıyor', 'Bakım çok pahalı'],
         buyingTips: ['Sırf görüntüsü için alıyorsanız, kenarda 100.000 TL arıza parası ayırın.']
+    },
+    // BATCH 5: POPULAR USED CARS (ADDED FEB 2026)
+    {
+        id: 'fiat-punto-evo-1-3-multijet',
+        slug: 'fiat-punto-evo-1-3-multijet',
+        brand: 'Fiat',
+        model: 'Punto',
+        variant: 'Evo 1.3 MultiJet Dynamic',
+        years: '2010-2013',
+        generation: 'Evo',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 650000,
+        reliabilityScore: 85,
+        totalIssues: 2,
+        searchCount: 28000,
+        issues: [
+            { id: 'punto-1', title: 'City Modu', description: 'Direksiyon sertleşmesi ve city motoru arızası (Kronik).', category: 'elektronik', riskLevel: 'MEDIUM', affectedKm: '60.000+ km', repairCost: '8.000 - 15.000 TL' },
+            { id: 'punto-2', title: 'Torpido Çatlaması', description: 'Yolcu hava yastığı kısmından torpidonun çatlaması.', category: 'govde', riskLevel: 'LOW', affectedKm: 'Güneş etkisi', repairCost: 'Kozmetik' }
+        ],
+        pros: ['Yedek parça bedava', 'Yakıt koklar', 'Piyasa'],
+        cons: ['Yalıtım', 'Performans (75hp versiyon)', 'City modu riski'],
+        buyingTips: ['Torpido çatlağına dikkat edin, tamiri zordur. City modunu açıp kapatarak direksiyonu test edin.']
+    },
+    {
+        id: 'renault-fluence-1-5-dci',
+        slug: 'renault-fluence-1-5-dci',
+        brand: 'Renault',
+        model: 'Fluence',
+        variant: '1.5 dCi Touch Plus',
+        years: '2010-2016',
+        generation: 'L38',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 850000,
+        reliabilityScore: 89,
+        totalIssues: 1,
+        searchCount: 42000,
+        issues: [
+            { id: 'fluence-1', title: 'EDC Beyni', description: 'Otomatik viteslerde şanzıman beyni arızası.', category: 'sanziman', riskLevel: 'MEDIUM', affectedKm: '100.000+ km', repairCost: '20.000 - 35.000 TL' }
+        ],
+        pros: ['Makam aracı konforu', 'Geniş arka diz mesafesi', 'Az yakar'],
+        cons: ['İmaj (Şirket/Kiralama)', 'Yol tutuş (Yumuşak)', 'Direksiyon hissiz'],
+        buyingTips: ['Makam perdesi olan Touch Plus veya Icon paketleri tercih edin. Şirket çıkması olmayan temizini bulmak zordur.']
+    },
+    {
+        id: 'renault-talisman-1-6-dci',
+        slug: 'renault-talisman-1-6-dci',
+        brand: 'Renault',
+        model: 'Talisman',
+        variant: '1.6 dCi Icon',
+        years: '2016-2020',
+        generation: 'L2M',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1450000,
+        reliabilityScore: 80,
+        totalIssues: 2,
+        searchCount: 15000,
+        issues: [
+            { id: 'talisman-1', title: '4Control Sistemi', description: 'Arka tekerlek yönlendirme sisteminde ses ve boşluk.', category: 'suspansiyon', riskLevel: 'MEDIUM', affectedKm: '80.000+ km', repairCost: '30.000 TL' },
+            { id: 'talisman-2', title: 'R-Link Ekran', description: 'Ekranın kararması veya dokunmatik kaybı.', category: 'elektronik', riskLevel: 'LOW', affectedKm: 'Rastgele', repairCost: '10.000 TL' }
+        ],
+        pros: ['Tasarım harikası', 'Masajlı koltuklar', '4Control yol tutuş'],
+        cons: ['İkinci eli yavaş', 'Parçası pahalı (Kaporta)', 'Rüzgar sesi'],
+        buyingTips: ['4Control sistemi olanları alırken mutlaka yetkili serviste ekspertiz yaptırın.']
+    },
+    {
+        id: 'volkswagen-jetta-mk6',
+        slug: 'volkswagen-jetta-1-4-tsi',
+        brand: 'Volkswagen',
+        model: 'Jetta',
+        variant: '1.4 TSI Highline',
+        years: '2011-2018',
+        generation: 'Mk6',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1150000,
+        reliabilityScore: 84,
+        totalIssues: 2,
+        searchCount: 35000,
+        issues: [
+            { id: 'jetta-1', title: 'DSG Kavrama', description: 'Titreme ve vuruntu (Klasik DSG sorunu).', category: 'sanziman', riskLevel: 'MEDIUM', affectedKm: '70.000+ km', repairCost: '25.000 TL' },
+            { id: 'jetta-2', title: 'Kapı Döşemesi', description: 'Kumaş döşemelerin sarkması.', category: 'govde', riskLevel: 'LOW', affectedKm: 'Yaşa bağlı', repairCost: '2.000 TL' }
+        ],
+        pros: ['Bagaj hacmi', 'Piyasa', 'Tok sürüş'],
+        cons: ['Meksika üretimi (Malzeme kalitesi Golf\'ten düşük)', 'Yalıtım'],
+        buyingTips: ['Meksika üretimi olduğu için Golf kalitesi beklemeyin ama bagajı için alınır.']
+    },
+    {
+        id: 'volkswagen-passat-cc',
+        slug: 'volkswagen-arteon-1-5-tsi',
+        brand: 'Volkswagen',
+        model: 'Arteon',
+        variant: '1.5 TSI R-Line',
+        years: '2017-2024',
+        generation: 'Mk1',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 2400000,
+        reliabilityScore: 88,
+        totalIssues: 1,
+        searchCount: 18000,
+        issues: [
+            { id: 'arteon-1', title: 'Sunroof Çıtırdaması', description: 'Kasa esnemesi kaynaklı tavan sesi.', category: 'govde', riskLevel: 'LOW', affectedKm: 'Kronik', repairCost: 'Bakım' }
+        ],
+        pros: ['Tasarım', 'Bagaj (Liftback)', 'Prestij'],
+        cons: ['Arka baş mesafesi', 'Uzunluk (Park)'],
+        buyingTips: ['R-Line paket tercih edin, satarken çok daha hızlı gider.']
+    },
+    {
+        id: 'ford-mondeo-mk5',
+        slug: 'ford-mondeo-1-5-ecoboost',
+        brand: 'Ford',
+        model: 'Mondeo',
+        variant: '1.5 EcoBoost Titanium',
+        years: '2014-2022',
+        generation: 'Mk5',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1350000,
+        reliabilityScore: 86,
+        totalIssues: 2,
+        searchCount: 14000,
+        issues: [
+            { id: 'mondeo-1', title: 'Şanzıman Vuruntusu', description: '6F35 şanzımanın 2-3 geçişlerinde sarsıntı.', category: 'sanziman', riskLevel: 'MEDIUM', affectedKm: '80.000+ km', repairCost: 'Elektrovalf/Yağ' },
+            { id: 'mondeo-2', title: 'Direksiyon Kutusu', description: 'Elektrikli direksiyon arızası (Nadir).', category: 'elektronik', riskLevel: 'MEDIUM', affectedKm: '150.000+ km', repairCost: '25.000 TL' }
+        ],
+        pros: ['Aston Martin ön panjur', 'Sessizlik (Sınıf lideri)', 'Yol tutuş'],
+        cons: ['Yakıt tüketimi (11-12LT)', 'Ağır kasa'],
+        buyingTips: ['Yakıtı dert etmiyorsanız Passat\'tan daha konforlu ve sessiz bir araçtır.']
+    },
+    {
+        id: 'honda-civic-fb7',
+        slug: 'honda-civic-fb7-1-6-eco',
+        brand: 'Honda',
+        model: 'Civic',
+        variant: 'FB7 1.6 Eco Elegance',
+        years: '2012-2016',
+        generation: 'FB7',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 950000,
+        reliabilityScore: 94,
+        totalIssues: 1,
+        searchCount: 48000,
+        issues: [
+            { id: 'fb7-1', title: 'Boya Kalitesi', description: 'Vernik atması ve ince boya.', category: 'govde', riskLevel: 'LOW', affectedKm: 'Zamanla', repairCost: 'Kozmetik' }
+        ],
+        pros: ['Ölümsüz motor/şanzıman', 'LPG ile bedava geziyor', 'İkinci el peynir ekmek'],
+        cons: ['Yalıtım sıfır', 'Performans düşük'],
+        buyingTips: ['LPG dolum ağzı benzin kapağında olan (Fabrikasyon) modelleri tercih edin.']
+    },
+    {
+        id: 'toyota-auris-valvematic',
+        slug: 'toyota-auris-1-6-valvematic',
+        brand: 'Toyota',
+        model: 'Auris',
+        variant: '1.6 Advance Skypack',
+        years: '2013-2018',
+        generation: 'E180',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 980000,
+        reliabilityScore: 92,
+        totalIssues: 1,
+        searchCount: 16000,
+        issues: [
+            { id: 'auris-1', title: 'Yağ Yakma', description: 'Bazı 1.33 motorlarda yağ eksiltme (1.6 sorunsuz).', category: 'motor', riskLevel: 'LOW', affectedKm: '150.000+ km', repairCost: 'Revizyon' }
+        ],
+        pros: ['Sorunsuzluk', 'Cam tavan ferahlığı', 'Yumuşak sürüş'],
+        cons: ['Multimedya saati 80\'lerden kalma', 'CVT motor bağırır'],
+        buyingTips: ['Cam tavanlı (Skypack) olmayanları ikinci elde zor satılır.']
+    },
+    {
+        id: 'hyundai-accent-blue',
+        slug: 'hyundai-accent-blue-1-6-crdi',
+        brand: 'Hyundai',
+        model: 'Accent Blue',
+        variant: '1.6 CRDi Mode Plus',
+        years: '2011-2018',
+        generation: 'RB',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 850000,
+        reliabilityScore: 88,
+        totalIssues: 2,
+        searchCount: 22000,
+        issues: [
+            { id: 'accent-1', title: 'Direksiyon Kutusu', description: 'Tıkırtı sesi.', category: 'suspansiyon', riskLevel: 'MEDIUM', affectedKm: '80.000+ km', repairCost: '10.000 TL' },
+            { id: 'accent-2', title: 'Amortisör', description: 'Arka tarafın sekmesi (Yol tutuş zayıf).', category: 'suspansiyon', riskLevel: 'HIGH', affectedKm: 'Yapısal', repairCost: 'Çözümsüz' }
+        ],
+        pros: ['Roket gibi motor (136hp dizel)', 'Sorunsuz otomatik', 'Parça ucuz'],
+        cons: ['Yol tutuş çok kötü (Arka savurur)', 'Frenler zayıf'],
+        buyingTips: ['Hız yapmayı seviyorsanız uzak durun, arka tarafı çok oynar. Şehir içi ve performans için harikadır.']
+    },
+    {
+        id: 'ford-ranger-wildtrak',
+        slug: 'ford-ranger-wildtrak',
+        brand: 'Ford',
+        model: 'Ranger',
+        variant: '2.0 EcoBlue Wildtrak',
+        years: '2019-2023',
+        generation: 'T6',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 2100000,
+        reliabilityScore: 85,
+        totalIssues: 2,
+        searchCount: 30000,
+        issues: [
+            { id: 'ranger-1', title: 'Şanzıman (10 İleri)', description: 'Vites geçişlerinde kararsızlık ve ısınma.', category: 'sanziman', riskLevel: 'MEDIUM', affectedKm: 'Ağır kullanım', repairCost: '40.000 TL' },
+            { id: 'ranger-2', title: 'AdBlue Enjektörü', description: 'Tıkanma.', category: 'motor', riskLevel: 'MEDIUM', affectedKm: '50.000+ km', repairCost: '8.000 TL' }
+        ],
+        pros: ['Heybet', 'Vergi avantajı (Kamyonet)', 'Arazi yeteneği'],
+        cons: ['Şehir içi park', 'Yıllık muayene', 'Hız sınırı'],
+        buyingTips: ['Sürgü kapaklı bagaj ve dodik setli olanlar daha değerlidir.']
+    },
+    {
+        id: 'vw-transporter-t6',
+        slug: 'volkswagen-transporter-t6',
+        brand: 'Volkswagen',
+        model: 'Transporter',
+        variant: 'T6 City Van',
+        years: '2015-2024',
+        generation: 'T6',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1600000,
+        reliabilityScore: 90,
+        totalIssues: 1,
+        searchCount: 25000,
+        issues: [
+            { id: 'transporter-1', title: 'EGR Valfi', description: 'Tıkanma ve güç kaybı.', category: 'motor', riskLevel: 'MEDIUM', affectedKm: '100.000+ km', repairCost: '15.000 TL' }
+        ],
+        pros: ['VIP konforu', 'Piyasa (Altın)', 'Güçlü motor'],
+        cons: ['Yakıt', 'Bakım maliyeti'],
+        buyingTips: ['VIP yapılı araç alıyorsanız ruhsata işli olup olmadığına (9+1) mutlaka bakın.']
+    },
+    // BATCH 6: USER REQUESTED MISSING MODELS & ENGINES (ADDED FEB 2026)
+    {
+        id: 'volkswagen-amarok-v6-tdi',
+        slug: 'volkswagen-amarok-v6-tdi',
+        brand: 'Volkswagen',
+        model: 'Amarok',
+        variant: '3.0 V6 TDI Aventura',
+        years: '2016-2022',
+        generation: 'Mk1 Facelift',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 2600000,
+        reliabilityScore: 84,
+        totalIssues: 2,
+        searchCount: 22000,
+        issues: [
+            { id: 'amarok-1', title: 'Direksiyon Pompası', description: 'Ağır arazide pompanın ses yapması.', category: 'suspansiyon', riskLevel: 'MEDIUM', affectedKm: '100.000+ km', repairCost: '15.000 TL' },
+            { id: 'amarok-2', title: 'DPF Tıkanıklığı', description: 'Şehir içi kullanımda DPF uyarısı.', category: 'motor', riskLevel: 'LOW', affectedKm: 'Şehir içi', repairCost: 'Rejenerasyon' }
+        ],
+        pros: ['V6 motor gücü', 'Konfor (Kamyonet değil SUV gibi)', 'Prestij'],
+        cons: ['Yakıt tüketimi (12-13L)', 'Park sorunu (Genişlik)'],
+        buyingTips: ['2.0 TDI dört silindirli yerine mutlaka V6 TDI alın, yakıtı aynı performansı çok farklıdır.']
+    },
+    {
+        id: 'bmw-x5-xdrive30d',
+        slug: 'bmw-x5-xdrive30d',
+        brand: 'BMW',
+        model: 'X5',
+        variant: 'xDrive30d M Sport',
+        years: '2018-2024',
+        generation: 'G05',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 6500000,
+        reliabilityScore: 91,
+        totalIssues: 1,
+        searchCount: 28000,
+        issues: [
+            { id: 'x5-1', title: 'Hava Süspansiyonu', description: 'Körüklerin zamanla inmesi.', category: 'suspansiyon', riskLevel: 'MEDIUM', affectedKm: '120.000+ km', repairCost: '40.000 TL' }
+        ],
+        pros: ['Sürüş keyfi', 'Kalite', 'Teknoloji'],
+        cons: ['Lastik maliyeti', 'Bakım ücretleri'],
+        buyingTips: ['Lazer far opsiyonu gece sürüşü için devrim niteliğindedir.']
+    },
+    {
+        id: 'bmw-x3-xdrive20i',
+        slug: 'bmw-x3-xdrive20i',
+        brand: 'BMW',
+        model: 'X3',
+        variant: 'xDrive20i M Sport',
+        years: '2017-2024',
+        generation: 'G01',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 3800000,
+        reliabilityScore: 89,
+        totalIssues: 1,
+        searchCount: 20000,
+        issues: [
+            { id: 'x3-1', title: 'Soğutma Sıvısı', description: 'Eksik soğutma sıvısı uyarısı (Hortum kaçağı).', category: 'motor', riskLevel: 'LOW', affectedKm: 'Rastgele', repairCost: '2.000 TL' }
+        ],
+        pros: ['İdeal boyut', '4 çeker başarısı', 'İkinci el'],
+        cons: ['Benzinli motor çok yakar (11L)', 'Rüzgar sesi'],
+        buyingTips: ['M Sport süspansiyon serttir, konfor için xLine tercih edilebilir.']
+    },
+    {
+        id: 'bmw-g30-520i',
+        slug: 'bmw-g30-520i',
+        brand: 'BMW',
+        model: '5 Serisi',
+        variant: '520i Special Edition M Sport',
+        years: '2017-2023',
+        generation: 'G30',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 3500000,
+        reliabilityScore: 92,
+        totalIssues: 1,
+        searchCount: 45000,
+        issues: [
+            { id: 'g30-1', title: 'Aktif Panjur', description: 'Ön panjur kanatçıklarının takılı kalması.', category: 'govde', riskLevel: 'LOW', affectedKm: 'Rastgele', repairCost: '5.000 TL' }
+        ],
+        pros: ['Yalıtım', 'Prestij', 'Teknoloji'],
+        cons: ['Park sorunu', 'Yakıt'],
+        buyingTips: ['Borusan çıkışlı ve "Special Edition" (Vakum/Hayalet/Harman) olmasına dikkat edin.']
+    },
+    {
+        id: 'audi-q5-40-tdi',
+        slug: 'audi-q5-40-tdi',
+        brand: 'Audi',
+        model: 'Q5',
+        variant: '40 TDI Quattro S-Line',
+        years: '2017-2024',
+        generation: 'FY',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 3500000,
+        reliabilityScore: 90,
+        totalIssues: 1,
+        searchCount: 19000,
+        issues: [
+            { id: 'q5-1', title: 'AdBlue', description: 'AdBlue dozajlama hatası.', category: 'motor', riskLevel: 'MEDIUM', affectedKm: '80.000+ km', repairCost: '15.000 TL' }
+        ],
+        pros: ['Quattro güveni', 'Sessizlik', 'İç mekan kalitesi'],
+        cons: ['Tasarım eski yüzlü', 'Servis pahalı'],
+        buyingTips: ['Matrix LED far olmayanları ikinci elde daha yavaş satılır.']
+    },
+    {
+        id: 'audi-a6-c8-40-tdi',
+        slug: 'audi-a6-c8-40-tdi',
+        brand: 'Audi',
+        model: 'A6',
+        variant: '40 TDI Quattro S-Line',
+        years: '2018-2024',
+        generation: 'C8',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 4200000,
+        reliabilityScore: 91,
+        totalIssues: 1,
+        searchCount: 22000,
+        issues: [
+            { id: 'a6-1', title: 'MMI Ekranlar', description: 'Alt dokunmatik ekranın tepki vermemesi.', category: 'elektronik', riskLevel: 'LOW', affectedKm: 'Rastgele', repairCost: 'Yazılım' }
+        ],
+        pros: ['Teknoloji üssü', 'Konfor', 'Prestij'],
+        cons: ['Çok fazla parmak izi (Ekranlar)', 'Yazılım hataları'],
+        buyingTips: ['Direksiyon ısıtma ve vakum kapı opsiyonlarını arayın.']
+    },
+    {
+        id: 'audi-a4-b9-40-tfsi',
+        slug: 'audi-a4-b9-40-tfsi',
+        brand: 'Audi',
+        model: 'A4',
+        variant: '40 TFSI Advanced',
+        years: '2016-2024',
+        generation: 'B9',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 2500000,
+        reliabilityScore: 89,
+        totalIssues: 0,
+        searchCount: 16000,
+        issues: [],
+        pros: ['Sessizlik', 'Yol tutuş', 'Kalite'],
+        cons: ['Önden çekiş (Quattro değilse)', 'Arka diz mesafesi'],
+        buyingTips: ['Benzinli motorlar (TFSI) dizellere göre çok daha sessiz ve sorunsuzdur.']
+    },
+    {
+        id: 'seat-arona-1-0-tsi',
+        slug: 'seat-arona-1-0-tsi',
+        brand: 'Seat',
+        model: 'Arona',
+        variant: '1.0 TSI Xperience',
+        years: '2018-2024',
+        generation: 'Mk1',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1350000,
+        reliabilityScore: 88,
+        totalIssues: 1,
+        searchCount: 18000,
+        issues: [
+            { id: 'arona-1', title: 'Kapı Sesi', description: 'Kapı fitillerinden gelen rüzgar sesi.', category: 'govde', riskLevel: 'LOW', affectedKm: 'Kronik', repairCost: 'Fitil Ayarı' }
+        ],
+        pros: ['Şehir içi pratiklik', 'Donanım', 'Tasarım'],
+        cons: ['Sert süspansiyon', 'Dar iç mekan'],
+        buyingTips: ['Çift renk tavanlı modelleri tercih edin, karakter katıyor.']
+    },
+    {
+        id: 'seat-leon-1-5-tsi',
+        slug: 'seat-leon-1-5-tsi',
+        brand: 'Seat',
+        model: 'Leon',
+        variant: '1.5 TSI FR',
+        years: '2020-2024',
+        generation: 'Mk4',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1550000,
+        reliabilityScore: 86,
+        totalIssues: 2,
+        searchCount: 38000,
+        issues: [
+            { id: 'leon-1', title: 'Multimedya', description: 'Ekranın geç açılması veya donması.', category: 'elektronik', riskLevel: 'LOW', affectedKm: 'Yazılımsal', repairCost: 'Güncelleme' },
+            { id: 'leon-2', title: 'SOS Hatası', description: 'Acil durum çağrı sistemi hatası.', category: 'elektronik', riskLevel: 'LOW', affectedKm: 'Yazılımsal', repairCost: 'Servis' }
+        ],
+        pros: ['Tasarım (Işık barı)', 'Yol tutuş', 'Genç imajı'],
+        cons: ['Dokunmatik klima kontrolü (Kullanışsız)', 'Malzeme kalitesi (Golf altı)'],
+        buyingTips: ['FR paket kırmızı renk Leon\'un olmazsa olmazıdır.']
+    },
+    {
+        id: 'cupra-leon-2-0-vz',
+        slug: 'cupra-leon-2-0-vz',
+        brand: 'Cupra',
+        model: 'Leon',
+        variant: '2.0 TSI VZ 300hp',
+        years: '2020-2024',
+        generation: 'Mk1',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 3200000,
+        reliabilityScore: 90,
+        totalIssues: 0,
+        searchCount: 12000,
+        issues: [],
+        pros: ['Saf performans (300hp)', 'Ses', 'Sürüş zevki'],
+        cons: ['Vergi', 'Yakıt', 'Sertlik'],
+        buyingTips: ['Gerçek bir hot-hatch arıyorsanız, Type-R ile yarışan tek model budur.']
+    },
+    {
+        id: 'mazda-cx30-2-0-skyactiv',
+        slug: 'mazda-cx30-2-0-skyactiv',
+        brand: 'Mazda',
+        model: 'CX-30',
+        variant: '2.0 Skyactiv-G Power Sense',
+        years: '2020-2024',
+        generation: 'DM',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1900000,
+        reliabilityScore: 95,
+        totalIssues: 0,
+        searchCount: 8000,
+        issues: [],
+        pros: ['Sorunsuzluk zirvesi', 'Malzeme kalitesi (Premium)', 'Tasarım'],
+        cons: ['Arka yaşam alanı dar', 'Bagaj küçük', 'İkinci eli yavaş'],
+        buyingTips: ['Sorunsuzluk ve kalite arayıp, ikinci el hızını dert etmeyenler için en iyi seçenek.']
+    },
+    {
+        id: 'suzuki-scross-1-4-hybrid',
+        slug: 'suzuki-scross-1-4-hybrid',
+        brand: 'Suzuki',
+        model: 'S-Cross',
+        variant: '1.4 BoosterJet Hybrid GLX',
+        years: '2021-2024',
+        generation: 'Mk3',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1500000,
+        reliabilityScore: 93,
+        totalIssues: 0,
+        searchCount: 11000,
+        issues: [],
+        pros: ['Fiyat/Performans', 'Sorunsuzluk', 'Yakıt ekonomisi'],
+        cons: ['Tasarım (Subjektif)', 'Yalıtım', 'Malzeme kalitesi'],
+        buyingTips: ['AllGrip (4x4) olanları arazide de şaşırtıcı derecede yeteneklidir.']
+    },
+    {
+        id: 'mg-4-electric',
+        slug: 'mg-4-electric',
+        brand: 'MG',
+        model: 'MG4',
+        variant: 'Luxury 64kWh',
+        years: '2023-2024',
+        generation: 'Mk1',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1400000,
+        reliabilityScore: 88,
+        totalIssues: 1,
+        searchCount: 25000,
+        issues: [
+            { id: 'mg4-1', title: 'Yazılım', description: 'Şarj planlama ve multimedya hataları.', category: 'elektronik', riskLevel: 'LOW', affectedKm: 'Yazılımsal', repairCost: 'Güncelleme' }
+        ],
+        pros: ['Fiyat', 'Sürüş dinamikleri (Arkadan itiş)', 'Menzil'],
+        cons: ['İç mekan plastiği', 'Servis ağı (Yeni)'],
+        buyingTips: ['Elektrikli araç dünyasına giriş için fiyat/performans kralıdır.']
+    },
+    {
+        id: 'mini-countryman-f60',
+        slug: 'mini-countryman-f60',
+        brand: 'Mini',
+        model: 'Countryman',
+        variant: 'Cooper ALL4',
+        years: '2017-2024',
+        generation: 'F60',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 2100000,
+        reliabilityScore: 86,
+        totalIssues: 1,
+        searchCount: 14000,
+        issues: [
+            { id: 'countryman-1', title: 'Motor Kulağı', description: 'Motor takozunun erken yıpranması.', category: 'motor', riskLevel: 'LOW', affectedKm: '50.000+ km', repairCost: '8.000 TL' }
+        ],
+        pros: ['Tarz', 'Genişlik (Mini\'ye göre)', 'Sürüş hissi'],
+        cons: ['Sert süspansiyon', 'Yol sesi'],
+        buyingTips: ['Aile için tek uygun Mini modelidir. ALL4 (4 çeker) tercih edin.']
+    },
+    {
+        id: 'ds-4-puretech',
+        slug: 'ds-4-puretech',
+        brand: 'DS',
+        model: 'DS4',
+        variant: '1.6 PureTech Opera',
+        years: '2021-2024',
+        generation: 'Mk2',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 2300000,
+        reliabilityScore: 85,
+        totalIssues: 0,
+        searchCount: 10000,
+        issues: [],
+        pros: ['Sanat eseri tasarım', 'İç mekan kalitesi', 'Konfor'],
+        cons: ['İkinci el çok yavaş', 'Fiyat'],
+        buyingTips: ['Sıradan olsun istemiyorsanız, yoldaki en şık araç budur.']
+    },
+    {
+        id: 'mitsubishi-asx-1-3-turbo',
+        slug: 'mitsubishi-asx-1-3-turbo',
+        brand: 'Mitsubishi',
+        model: 'ASX',
+        variant: '1.3 Turbo Instyle',
+        years: '2023-2024',
+        generation: 'Mk2',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1450000,
+        reliabilityScore: 88,
+        totalIssues: 0,
+        searchCount: 5000,
+        issues: [],
+        pros: ['Renault Captur altyapısı', 'Motor performansı', 'Garanti'],
+        cons: ['Kopya tasarım (Captur ile aynı)', 'Marka imajı (Eskiye göre)'],
+        buyingTips: ['Captur bulamazsanız aynı aracı Mitsubishi logosuyla alabilirsiniz.']
+    },
+    // VAG ENGINE EXPANSION REQ
+    {
+        id: 'volkswagen-polo-1-4-tdi',
+        slug: 'volkswagen-polo-1-4-tdi',
+        brand: 'Volkswagen',
+        model: 'Polo',
+        variant: '1.4 TDI Comfortline',
+        years: '2014-2017',
+        generation: '6C',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 850000,
+        reliabilityScore: 87,
+        totalIssues: 2,
+        searchCount: 35000,
+        issues: [
+            { id: 'polo-tdi-1', title: 'EGR', description: 'EGR valfi tıkanıklığı.', category: 'motor', riskLevel: 'MEDIUM', affectedKm: '80.000+ km', repairCost: '10.000 TL' },
+            { id: 'polo-tdi-2', title: 'Su Devirdaim', description: 'Su pompası sızıntısı.', category: 'motor', riskLevel: 'MEDIUM', affectedKm: '90.000+ km', repairCost: '5.000 TL' }
+        ],
+        pros: ['Yakıt cimrisi', 'Piyasa', 'Kalite'],
+        cons: ['Motor sesi (3 silindir)', 'Arka diz mesafesi'],
+        buyingTips: ['Dizel Polo her zaman "çeyrek altın"dır, satarken hiç üzmez.']
+    },
+    {
+        id: 'audi-a3-8v-1-6-tdi',
+        slug: 'audi-a3-8v-1-6-tdi',
+        brand: 'Audi',
+        model: 'A3',
+        variant: '1.6 TDI Ambition',
+        years: '2012-2017',
+        generation: '8V',
+        image: 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80',
+        price: 1250000,
+        reliabilityScore: 89,
+        totalIssues: 1,
+        searchCount: 40000,
+        issues: [
+            { id: 'a3-tdi-1', title: 'DSG Mekatronik', description: 'Şanzıman kartı arızası.', category: 'sanziman', riskLevel: 'MEDIUM', affectedKm: '100.000+ km', repairCost: '30.000 TL' },
+            { id: 'a3-tdi-2', title: 'MMI Ekran ', description: 'Ekran mekanizmasının bozulması (Çıkıp girmemesi).', category: 'elektronik', riskLevel: 'LOW', affectedKm: 'Kronik', repairCost: '5.000 TL' }
+        ],
+        pros: ['Premium his', 'Yakıt', 'İkinci el'],
+        cons: ['Donanım (Boş paket çok)', 'Bakım'],
+        buyingTips: ['Sunroof olmayan A3\'ler çok zor satılır, mutlaka cam tavanlı bakın.']
     }
 ];
 
