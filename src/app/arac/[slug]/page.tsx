@@ -5,6 +5,9 @@ import { getCarBySlug, cars, getCategoryLabel } from '@/data/cars';
 import ReliabilityGauge from '@/components/ReliabilityGauge';
 import IssueCard from '@/components/IssueCard';
 import AdSpace from '@/components/AdSpace';
+import { auth } from '@/auth';
+import { prisma } from '@/lib/db';
+import CommentsSection from '@/components/comments/CommentsSection';
 
 
 interface PageProps {
@@ -53,6 +56,14 @@ export default async function CarDetailPage({ params }: PageProps) {
     const highRiskCount = car.issues.filter(i => i.riskLevel === 'HIGH').length;
     const mediumRiskCount = car.issues.filter(i => i.riskLevel === 'MEDIUM').length;
     const lowRiskCount = car.issues.filter(i => i.riskLevel === 'LOW').length;
+
+    // Fetch Session and Comments
+    const session = await auth();
+    const comments = await prisma.comment.findMany({
+        where: { carSlug: slug },
+        include: { user: true },
+        orderBy: { createdAt: 'desc' }
+    });
 
     // Get similar cars
 
@@ -158,6 +169,12 @@ export default async function CarDetailPage({ params }: PageProps) {
                         {/* Ads: Expert */}
                         <AdSpace type="expert" />
 
+                        {/* Comments Section */}
+                        <CommentsSection
+                            carSlug={slug}
+                            currentUser={session?.user}
+                            comments={comments}
+                        />
                     </div>
 
                     {/* Sidebar */}
