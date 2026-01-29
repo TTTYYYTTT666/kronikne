@@ -8,6 +8,13 @@ interface IssueCardProps {
 export default function IssueCard({ issue }: IssueCardProps) {
     const getRiskStyles = (risk: string) => {
         switch (risk) {
+            case 'CRITICAL':
+                return {
+                    bg: 'bg-purple-50 dark:bg-purple-900/20',
+                    border: 'border-purple-200 dark:border-purple-800',
+                    badge: 'bg-purple-600 text-white animate-pulse',
+                    icon: 'text-purple-600'
+                };
             case 'HIGH':
                 return {
                     bg: 'bg-red-50 dark:bg-red-900/20',
